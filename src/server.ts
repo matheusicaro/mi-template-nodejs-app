@@ -1,8 +1,6 @@
-import express from 'express';
+import app from './app';
 
-const app = express();
-const port = 3000;
-
-app.use(express.json());
-app.use('/health', (req, res) => res.status(200).json({ status: 'ONLINE' }));
-app.listen(port, () => console.log(`Server started on ${port}`));
+app.listen(app.get('port'), () => {
+  console.log(`Server started on ${app.get('host')}:${app.get('port')}`);
+  console.log(`environment: ${app.get('env')}`);
+});
