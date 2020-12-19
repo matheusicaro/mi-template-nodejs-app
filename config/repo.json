@@ -1,18 +1,18 @@
 {
   "profile": {
     "pt": {
-      "kind": "Estudos",
-      "name": "Web App Para Gerenciar Usuários - Front-end",
+      "kind": "Open Source",
+      "name": "Simple Template TypeScript Starter Rest API",
       "intro": "Template simples para iniciar um Api Rest com typescript, node express, testando com Jest, linting com Eslint e Prettier, ganchos pre-commit com Husky, scripts de depurador de código VS, desenvolvimento local com Nodemon."
     },
     "en": {
-      "kind": "Studies",
-      "name": "Web App to manage users - Front-end",
+      "kind": "Open Source",
+      "name": "Simple Template TypeScript Starter Rest API",
       "intro": "Simple template to start an Api Rest with typescript, node express, testing with Jest, linting with Eslint and Prettier, pre-commit hooks with Husky, VS code debugger scripts, local development with Nodemon."
     },
     "es": {
-      "kind": "Estudios",
-      "name": "Web App Para Administrar Usuarios - Front-end",
+      "kind": "Open Source",
+      "name": "Simple Template TypeScript Starter Rest API",
       "intro": "Template simple para iniciar un Api Rest con mecanografiado, node express, testing con Jest, linting con Eslint y Prettier, pre-commit hooks con Husky, scripts de depuración de código VS, desarrollo local con Nodemon."
     }
   },
@@ -23,7 +23,9 @@
         "tags": [
           "TypeScript",
           "Express",
-          "Jest"
+          "Jest",
+          "Husky",
+          "eslint"
         ]
       }
     ]
