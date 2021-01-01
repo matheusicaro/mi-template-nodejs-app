@@ -5,6 +5,11 @@
       "name": "Simple Template TypeScript Starter REST API",
       "intro": "Template simples para iniciar um API REST com typescript, node express, testando com Jest, linting com Eslint e Prettier, ganchos pre-commit com Husky, scripts de depurador de código VS, desenvolvimento local com Nodemon."
     },
+    "fr": {
+      "kind": "Open Source",
+      "name": "Simple Template TypeScript Starter REST API",
+      "intro": "Template simple pour démarrer une API REST avec dactylographié, node express, test avec Jest, linting avec Eslint et Prettier, hooks de pré-commit avec Husky, scripts de débogage de code VS, développement local avec Nodemon."
+    },
     "en": {
       "kind": "Open Source",
       "name": "Simple Template TypeScript Starter REST API",
@@ -20,14 +25,7 @@
     "backend": [
       {
         "name": "Node.js",
-        "tags": [
-          "JavaScript"
-          "TypeScript",
-          "Express",
-          "Jest",
-          "Husky",
-          "eslint"
-        ]
+        "tags": ["JavaScript", "TypeScript", "Express", "Jest", "Husky", "eslint"]
       }
     ]
   }
