@@ -7,6 +7,7 @@
 - Pre-commit hooks with Husky
 - VS Code debugger scripts
 - Local development with Nodemon
+- Logger with winston
 
 ### Scripts
 
