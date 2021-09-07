@@ -1,0 +1,42 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "This is a sample server for initiating a Rest API using Node.js with Express and Typescript.",
+    "version": "1.0.0",
+    "title": "typescript-starter",
+    "termsOfService": "https://petstore.swagger.io/",
+    "contact": { "email": "contact@matheusicaro.com" },
+    "license": { "name": "Apache 2.0", "url": "http://www.apache.org/licenses/LICENSE-2.0.html" }
+  },
+  "host": "*",
+  "basePath": "/api/v1",
+  "tags": [],
+  "schemes": ["https", "http"],
+
+  "paths": {
+    "/helth": {
+      "post": {
+        "tags": ["helth"],
+        "summary": "check the Api status",
+        "description": "",
+        "operationId": "getHealth",
+        "produces": ["application/json"],
+        "parameters": [],
+        "responses": {
+          "200": { "status": "ONLINE", "schema": { "$ref": "#/definitions/HealthStatus" } }
+        }
+      }
+    }
+  },
+
+  "definitions": {
+    "HealthStatus": {
+      "type": "object",
+      "properties": {
+        "time": { "type": "string", "format": "date-time", "example": "2021-01-30T08:30:00Z" },
+        "status": { "type": "string", "enum": ["ONLINE", "FAILED"] }
+      }
+    }
+  },
+  "externalDocs": { "description": "Find out more about Swagger", "url": "http://swagger.io" }
+}
