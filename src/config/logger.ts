@@ -1,6 +1,6 @@
 import { join } from 'path';
 import { existsSync as verifyFileLogExisit, mkdirSync as buildFile } from 'fs';
-import { createLogger, error, format, transports } from 'winston';
+import { createLogger, format, transports } from 'winston';
 
 import environment from './environment';
 
@@ -14,7 +14,7 @@ const errorLog = join(DIRECTORY_NAME_TO_LOG, 'error.log');
 const combinedLog = join(DIRECTORY_NAME_TO_LOG, 'combined.log');
 const exceptionsLog = join(DIRECTORY_NAME_TO_LOG, 'exceptions.log');
 
-export const logger = createLogger({
+export const Logger = createLogger({
   level: 'info',
   format: format.combine(
     format.timestamp({
@@ -39,7 +39,7 @@ export const logger = createLogger({
 });
 
 if (environment.NODE_ENV !== 'production') {
-  logger.add(
+  Logger.add(
     new transports.Console({
       format: format.combine(
         format.colorize(),
