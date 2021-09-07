@@ -15,7 +15,7 @@
 
   "paths": {
     "/helth": {
-      "post": {
+      "get": {
         "tags": ["helth"],
         "summary": "check the Api status",
         "description": "",
