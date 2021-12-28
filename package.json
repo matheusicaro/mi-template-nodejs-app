@@ -10,7 +10,7 @@
     "url": "https://github.com/matheusicaro/template-nodejs-app/tree/node-14/GraphQL-and-TypeScript"
   },
   "engines": {
-    "node": "^14"
+    "node": ">=14"
   },
   "main": "src/server.ts",
   "husky": {
