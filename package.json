@@ -3,6 +3,9 @@
   "version": "2.0.0",
   "description": "This is a sample server for initiating a Rest API using Node.js with Express and Typescript.",
   "main": "server.js",
+  "engines": {
+    "node": ">=14"
+  },
   "scripts": {
     "build": "rimraf ./build && tsc",
     "start:prd": "npm run build && node build/server.js",
