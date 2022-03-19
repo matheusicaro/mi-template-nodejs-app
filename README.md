@@ -1,41 +1,48 @@
-# Simple TypeScript Starter Rest API
-[![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/matheusicaro/template-rest-api-typescript/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/matheusicaro/template-nodejs-app/blob/main/LICENSE)
 
-- Minimal
-- TypeScript
-- Testing with Jest
-- Linting with Eslint and Prettier
-- Pre-commit hooks with Husky
-- VS Code debugger scripts
-- Local development with Nodemon
-- Logger with winston
+---
 
-### Scripts
+<br>
 
-#### `npm run start`
+# TEMPLATE: Nodejs/typescript-and-express
 
-Starts the application in development using `nodemon` and `ts-node` to do hot reloading.
+<br>
 
-#### `npm run start:prd`
+## Project Specifications
 
-Starts the app in production by first building the project with `npm run build`, and then executing the compiled JavaScript at `build/server.js`.
+#### BACK-END
 
-#### `npm run build`
+- Used **[Node.js](https://nodejs.org/en/)** with:
+  - **[TypeScript](https://www.typescriptlang.org/)**
+  - **[Express](https://expressjs.com/)**
+- Used **[Jest](https://jestjs.io/)** for unit testing
+- Used **[Winston](https://typicode.github.io/husky/#/)** for the storage of the logs.
 
-Builds the app at `build`, cleaning the folder first.
+<br>
 
-#### `npm run test`
+## Installation and Setup Instructions
 
-Runs the `jest` tests once.
+> You will need `node` and `npm` installed globally on your machine.
 
-#### `npm run test:dev`
+1. clone the repository: <br>
+```
+git clone -b Nodejs/typescript-and-express https://github.com/matheusicaro/template-nodejs-app template-Nodejs/typescript-and-express
 
-Run the `jest` tests in watch mode, waiting for file changes.
+```
+4. Installation: `npm install`
+5. To Start Server: `npm start`
+6. To Visit App: `http://localhost:4000/`
 
-#### `npm run prettier-format`
+<br>
 
-Format your code.
+## Folder Structure
 
-#### `npm run prettier-watch`
+```
+-- src/config ___________________________: layer for configurations of essential services such as logger, environment, etc.
+-- src/routes ___________________________: API routes
+-- src/controllers ______________________: layer for controllers for handling requests
+-- src/models ___________________________: layer for structured objects for runtime use
+-- src/tests ____________________________: application unit tests
+```
 
-Format your code in watch mode, waiting for file changes.
+<br>
