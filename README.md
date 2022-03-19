@@ -12,15 +12,15 @@
 
 #### BACK-END
 
-- Used [Node.js](https://nodejs.org/en/) with:
-  - [TypeScript](https://www.typescriptlang.org/)
-  - [GraphQL](https://graphql.org/)
-  - [Apollo-server](https://www.apollographql.com/docs/apollo-server/)
-- Used [Jest](https://jestjs.io/) for unit testing
-- Used [Winston](https://github.com/winstonjs/winston) for the storage of the logs.
-- Used [Axios](https://axios-http.com/) for promises based HTTP client
-- Used [Husky](https://typicode.github.io/husky/#/) for analyzing lint tests and configurations before committing to the repository
-- Used [Prettier lint](https://prettier.io/docs/en/integrating-with-linters.html) for lint style
+- Used **[Node.js](https://nodejs.org/en/)** with:
+  - **[TypeScript](https://www.typescriptlang.org/)**
+  - **[GraphQL](https://graphql.org/)**
+  - **[Apollo-server](https://www.apollographql.com/docs/apollo-server/)**
+- Used **[Jest](https://jestjs.io/)** for unit testing
+- Used **[Winston](https://github.com/winstonjs/winston)** for the storage of the logs.
+- Used **[Axios](https://axios-http.com/)** for promises based HTTP client
+- Used **[Husky](https://typicode.github.io/husky/#/)** for analyzing lint tests and configurations before committing to the repository
+- Used **[Prettier lint](https://prettier.io/docs/en/integrating-with-linters.html)** for lint style
 
 <br>
 
