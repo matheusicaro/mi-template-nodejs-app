@@ -27,7 +27,9 @@
 		"GraphQL",
 		"Apollo-server",
 		"Rest",
-		"Express"
+		"Express",
+		"Back-end",
+		"JavaScript"
 	],
 	"stack": {
 		"backend": [{
