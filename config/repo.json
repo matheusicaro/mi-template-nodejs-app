@@ -1,40 +1,46 @@
 {
-  "profile": {
-    "en": {
-      "intro": "Repository with my templates pre-configured to start projects with Noje.js.",
-      "kind": "Open Source",
-      "name": "My templates for projects with Noje.js"
-    },
-    "es": {
-      "intro": "Repositório com meus templates pré-configurados para iniciar projetos com Noje.js.",
-      "kind": "Open Source",
-      "name": "Mis plantillas para proyectos con Noje.js"
-    },
-    "fr": {
-      "intro": "Référentiel avec mes modèles pré-configurés pour démarrer des projets avec Noje.js.",
-      "kind": "Open Source",
-      "name": "Mes modèles de projets avec Noje.js"
-    },
-    "pt": {
-      "intro": "Repositório com meus templates pré-configurados para iniciar projetos com Noje.js.",
-      "kind": "Open Source",
-      "name": "Meus templates para projetos com Noje.js"
-    }
-  },
-  "stack": {
-    "backend": [
-      {
-        "name": "Node.js",
-        "tags": [
-          "Express",
-          "TypeScript",
-          "Jest",
-          "Winston",
-          "Apollo-server",
-          "Axios",
-          "Husky"
-        ]
-      }
-    ]
-  }
+	"profile": {
+		"en": {
+			"intro": "Repository with my templates pre-configured to start projects with Noje.js.",
+			"kind": "Open Source",
+			"name": "My templates for projects with Noje.js"
+		},
+		"es": {
+			"intro": "Repositório com meus templates pré-configurados para iniciar projetos com Noje.js.",
+			"kind": "Open Source",
+			"name": "Mis plantillas para proyectos con Noje.js"
+		},
+		"fr": {
+			"intro": "Référentiel avec mes modèles pré-configurés pour démarrer des projets avec Noje.js.",
+			"kind": "Open Source",
+			"name": "Mes modèles de projets avec Noje.js"
+		},
+		"pt": {
+			"intro": "Repositório com meus templates pré-configurados para iniciar projetos com Noje.js.",
+			"kind": "Open Source",
+			"name": "Meus templates para projetos com Noje.js"
+		}
+	},
+	"tags": [
+		"Node.js",
+		"TypeScript",
+		"GraphQL",
+		"Apollo-server",
+		"Rest",
+		"Express"
+	],
+	"stack": {
+		"backend": [{
+			"name": "Node.js",
+			"tags": [
+				"Express",
+				"TypeScript",
+				"Jest",
+				"Winston",
+				"Apollo-server",
+				"Axios",
+				"Husky"
+			]
+		}]
+	}
 }
