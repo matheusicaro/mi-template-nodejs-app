@@ -1,22 +1,22 @@
 {
 	"profile": {
 		"en": {
-			"intro": "Repository with my templates pre-configured to start projects with Noje.js.",
+			"intro": "Repository with my pre-configured templates to start new projects with Noje.js. Templates with different technologies (GraphQL, Express, TypeScript, etc.).",
 			"kind": "Open Source",
 			"name": "My templates for projects with Noje.js"
 		},
 		"es": {
-			"intro": "Repositório com meus templates pré-configurados para iniciar projetos com Noje.js.",
+			"intro": "Repositorio con mis plantillas preconfiguradas para iniciar nuevos proyectos con Noje.js Plantillas con diferentes tecnologías (GraphQL, Express, TypeScript, etc.).",
 			"kind": "Open Source",
 			"name": "Mis plantillas para proyectos con Noje.js"
 		},
 		"fr": {
-			"intro": "Référentiel avec mes modèles pré-configurés pour démarrer des projets avec Noje.js.",
+			"intro": "Référentiel avec mes modèles pré-configurés pour démarrer de nouveaux projets avec Noje.js Modèles avec différentes technologies (GraphQL, Express, TypeScript, etc.).",
 			"kind": "Open Source",
 			"name": "Mes modèles de projets avec Noje.js"
 		},
 		"pt": {
-			"intro": "Repositório com meus templates pré-configurados para iniciar projetos com Noje.js.",
+			"intro": "Repositório com meus templates pré-configurados para iniciar novos projetos com Noje.js.. Templates com diversas tecnologias (GraphQL, Express, TypeScript, etc.).",
 			"kind": "Open Source",
 			"name": "Meus templates para projetos com Noje.js"
 		}
