@@ -1,5 +1,4 @@
-[![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/matheusicaro/
-template-nodejs-app/blob/main/LICENSE)
+[![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/matheusicaro/template-nodejs-app/blob/main/LICENSE)
 
 ---
 
